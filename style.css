@@ -63,6 +63,7 @@ p b{
   display:grid;
   grid-template-columns: 50% 50%;
   min-height: calc(100vh - 150px);
+  gap: 20px;
 }
 #about p{
   margin-left: 80px;
