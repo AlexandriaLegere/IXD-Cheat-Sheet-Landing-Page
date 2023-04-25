@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  color: #FFF;
+  background-color: #1A1423;
+}
+body{
+  margin: 0px;
+  cursor: default;
+}
+h1{
+  font-size: 40px;
+}
+h1 b{
+  color: #8FFBD4;
+}
+h3{
+  color: #DA4469;
+  font-size: 28px;
+}
+a{
+  color: #FFF;
+  /* margin-top: 50px; */
+  cursor: pointer;
+  font-size: 28px;
+}
+p{
+  font-size: 28px;
+}
+p b{
+  color: #639AF2;
+}
+#nav{
+  background-color: #DA4469;
+  position: sticky;
+  font-weight: bold;
+  height: 150px;
+  top: 0px;
+  z-index: 10;
+}
+
+
+#home{
+  padding-top:10vh ;
+  background-color:#372549 ;
+  min-height: calc(100vh - 150px);
+  text-align: center;
+}
+
+.downArrow{
+  font-size: 30px;
+  opacity: 0.5;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#about{
+  padding-top: 80px;
+  padding-bottom: 150px;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  min-height: calc(100vh - 150px);
+}
+#about p{
+  margin-left: 80px;
+  max-width: 550px;
+}
+#about h1, h3{
+  margin-left: 40px;
+  max-width: 590px;
+}
+#content{
+  padding-top: 80px;
+}
+.imgCont{
+  background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('assets/ProjectScreen.png');
+}
+
+#mailing{
+  /* height: 100vh; */
+  overflow:hidden;
+  max-height: calc(100vh - 150px);
+  /* height: 10px; */
+  /* display:grid; */
+  /* grid-template-columns: 50% 50%; */
+}
+
+.pink{
+  background-color: #DA4469;
+  border-radius: 0 80% 0 0;
+}
+.subtitle{
+  font-size: 14px;
+}
+form{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 28px;
+}
+input{
+  border-radius: 30px;
+  font-family: 'Work Sans', sans-serif;
+  box-shadow: inset -2px 2px 2px #372549;
+}
+.navCont{
+  padding: 90px 0  0 20px;
+}
+.navItem{
+  margin: 20px 20px;
+}
+
+#cube1{
+  width: 40vh;
+  border-radius: 20px;
+  
+}
+
+#cube2{
+  /* position: absolute;  */
+  width: 100%;
+  height:auto;
+  /* z-index: -10; */
+}
+#formtext{
+position: absolute; 
+padding-left: 50%;
+  margin-top: 100px;
+
+}
+/* Animations */
+@keyframes example {
+  from {transform: translateY(5px);}
+  to {transform: translateY(-5px);}
+  /* from {color: red;}
+  to {color: yellow;} */
+}
